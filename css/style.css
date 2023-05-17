@@ -17,7 +17,6 @@ section {
     background-color: #849c84;
 }
 
-/* social_media */
 nav {
     height: 5rem;
     padding: 0 1rem;
@@ -28,7 +27,7 @@ nav {
     background-color: #132328;
 }
 
-nav .icon-list {
+/* nav .icon-list {
     list-style: none;
     display: flex;
 }
@@ -63,7 +62,7 @@ nav .icon-list li:hover a {
 
 nav .icon-list li:hover i {
     color: #e4dbb4;
-}
+} */
 
 /* menus */
 nav .nav-items {
@@ -154,116 +153,7 @@ input[type=text]{
 }
 
 /* body */
-.popular {
-    display: flex;
-    padding: 10px 0px 10px 0px;
-    width: 100%;
-    height: 500px;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 2px solid #132328;
-}
 
-.popular h1 {
-    width: 20%;
-}
-
-.popular h1 a {
-    text-decoration: none;
-    margin-left: 90px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    background-color: #132328;
-    color: #e4dbb4;
-}
-
-.popular img {
-    display: flex;
-    width: 25%;
-    height: 100%;
-    justify-content: space-around;
-}
-
-.popular h1:hover a {
-    background-color: #e4dbb4;
-    color: #132328;
-}
-
-.anime {
-    display: flex;
-    padding: 10px 0px 10px 0px;
-    width: 100%;
-    height: 500px;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 2px solid #132328;
-}
-
-.anime h1 {
-    width: 20%;
-}
-
-.anime h1 a {
-    text-decoration: none;
-    margin-left: 90px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    background-color: #132328;
-    color: #e4dbb4;
-}
-
-.anime img {
-    display: flex;
-    width: 25%;
-    height: 100%;
-    justify-content: space-around;
-}
-
-.anime h1:hover a {
-    background-color: #e4dbb4;
-    color: #132328;
-}
-
-.marvel {
-    display: flex;
-    padding: 10px 0px 10px 0px;
-    width: 100%;
-    height: 500px;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom: 2px solid #132328;
-}
-
-.marvel h1 {
-    width: 20%;
-}
-
-.marvel h1 a {
-    text-decoration: none;
-    margin-left: 90px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    background-color: #132328;
-    color: #e4dbb4;
-}
-
-.marvel img {
-    display: flex;
-    width: 25%;
-    height: 100%;
-    justify-content: space-around;
-}
-
-.marvel h1:hover a {
-    background-color: #e4dbb4;
-    color: #132328;
-}
 
 header {
     margin-top: 40px;
@@ -379,6 +269,25 @@ button {
     font-weight: 999;
 }
 
-footer {
-    height: 50%;
+/* footer */
+#footer {
+    margin-top: 10px;
+    border-bottom: #132328 1px solid;
+}
+
+.col h1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.col ul {
+    list-style: none;
+    text-align: left;
+}
+
+.col ul li a {
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.1s ease;
+    color: #132328;
 }
